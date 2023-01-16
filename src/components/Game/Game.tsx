@@ -37,7 +37,7 @@ export const Game: FC = () => {
           </h2>
         )}
 
-        <button onClick={startNewGame}>Start new game!</button>
+        <button className="button" onClick={startNewGame}>Start new game!</button>
       </div>
     </>
   );
